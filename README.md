@@ -43,5 +43,5 @@ python data_preprocess.py
 python train.py --hidden_dim 50 --att_dim 100 --num_images 3 --batch_size 32 --learning_rate 0.001 --num_epochs 20
 ```
 
-## Contact:
+## Contact
 Questions and discussion are welcome: www.qttruong.info

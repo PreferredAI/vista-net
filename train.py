@@ -153,7 +153,7 @@ def main(_):
     sess.run(tf.global_variables_initializer())
     train_summary_writer.add_graph(sess.graph)
     saver = tf.train.Saver(max_to_keep=FLAGS.num_checkpoints)
-    data_reader = DataReader(num_images=FLAGS.num_images)
+    data_reader = DataReader(num_images=FLAGS.num_images, train_shuffle=True)
 
     print('\n{} Start training'.format(datetime.now()))
 

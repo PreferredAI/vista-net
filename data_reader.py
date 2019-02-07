@@ -9,9 +9,9 @@ NUM_WORDS = 30
 
 class DataReader:
 
-  def __init__(self, is_shuffle=False, num_images=3):
-    self.is_shuffle = is_shuffle
+  def __init__(self, num_images=3, train_shuffle=False):
     self.num_images = num_images
+    self.train_shuffle = train_shuffle
 
     self.train_data = self._read_data(train_file)
     self.valid_data = self._read_data(valid_file)
@@ -39,11 +39,7 @@ class DataReader:
 
           data.append((review, images, rating))
       except EOFError:
-        pass
-
-    # sort data by sent lengths to speed up training
-    data = sorted(data, key=lambda x: len(x[0]))
-    return data
+        return data
 
   def _batch_iterator(self, data, batch_size=1, desc=None):
     num_batches = int(np.ceil(len(data) / batch_size))
@@ -62,7 +58,7 @@ class DataReader:
       yield review_batch, images_batch, label_batch
 
   def read_train_set(self, batch_size=1):
-    if self.is_shuffle:
+    if self.train_shuffle:
       random.shuffle(self.train_data)
     return self._batch_iterator(self.train_data, batch_size, desc='Training')
 

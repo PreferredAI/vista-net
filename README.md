@@ -11,12 +11,12 @@ Presented at [AAAI 2019](https://aaai.org/Conferences/AAAI-19/)
 We provide:
 
 - Code to train and evaluate the model
-- [Data](https://goo.gl/jgESp4) used for the experiments
+- [Data](http://static.preferred.ai/vista-net/data.zip) used for the experiments
 
 If you find the code and data useful in your research, please cite:
 
 ```
-@inproceedings{VistaNet,
+@inproceedings{vistanet,
   title={VistaNet: Visual Aspect Attention Network for Multimodal Sentiment Analysis},
   author={Truong, Quoc-Tuan and Lauw, Hady W},
   publisher={AAAI Press},

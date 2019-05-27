@@ -22,7 +22,7 @@ def bidirectional_rnn(cell_fw, cell_bw, inputs, input_lengths,
       dtype=tf.float32,
       scope=scope
     )
-    outputs = tf.concat((fw_outputs, fw_outputs), axis=2)
+    outputs = tf.concat((fw_outputs, bw_outputs), axis=2)
 
     def concatenate_state(fw_state, bw_state):
       if isinstance(fw_state, LSTMStateTuple):

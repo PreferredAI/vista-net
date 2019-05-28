@@ -2,7 +2,7 @@
 
 This is the code for the paper:
 
-**[VistaNet: Visual Aspect Attention Network for Multimodal Sentiment Analysis](https://www.aaai.org/Papers/AAAI/2019/AAAI-TruongT.7005.pdf)**
+**[VistaNet: Visual Aspect Attention Network for Multimodal Sentiment Analysis](https://drive.google.com/file/d/12d8SZiNeKFgIGmO5VHSrZV2jkgwYZpNp)**
 <br>
 [Quoc-Tuan Truong](http://www.qttruong.info/) and [Hady W. Lauw](http://www.hadylauw.com/)
 <br>
@@ -16,7 +16,7 @@ We provide:
 If you find the code and data useful in your research, please cite:
 
 ```
-@inproceedings{VistaNet,
+@inproceedings{truong2019vistanet,
   title={VistaNet: Visual Aspect Attention Network for Multimodal Sentiment Analysis},
   author={Truong, Quoc-Tuan and Lauw, Hady W},
   publisher={AAAI Press},
@@ -27,7 +27,7 @@ If you find the code and data useful in your research, please cite:
 ## Requirements
 
 - Python 3
-- Tensorflow >= 1.12.0
+- Tensorflow >=1.12,<2.0
 - Tqdm
 - [GloVe](https://nlp.stanford.edu/projects/glove/) word embeddings
 

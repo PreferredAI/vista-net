@@ -11,16 +11,19 @@ Presented at [AAAI 2019](https://aaai.org/Conferences/AAAI-19/)
 We provide:
 
 - Code to train and evaluate the model
-- [Data](https://goo.gl/jgESp4) used for the experiments
+- [Data](https://smu-my.sharepoint.com/:f:/g/personal/hadywlauw_smu_edu_sg/ErrrZOQqAEhPomyExrxMGbUBqpmvmlaj1pM7xnAed5BCNQ) used for the experiments
 
 If you find the code and data useful in your research, please cite:
 
 ```
 @inproceedings{truong2019vistanet,
-  title={VistaNet: Visual Aspect Attention Network for Multimodal Sentiment Analysis},
+  title={Vistanet: Visual aspect attention network for multimodal sentiment analysis},
   author={Truong, Quoc-Tuan and Lauw, Hady W},
-  publisher={AAAI Press},
-  year={2019},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={33},
+  number={01},
+  pages={305--312},
+  year={2019}
 }
 ```
 
@@ -33,7 +36,7 @@ If you find the code and data useful in your research, please cite:
 
 ## How to run
 
-1. Make sure [data](https://goo.gl/jgESp4) is ready. Run script to pre-process the data:
+1. Make sure the data is ready. Run script to pre-process the data:
 ```bash
 python data_preprocess.py
 ```
@@ -44,4 +47,4 @@ python train.py --hidden_dim 50 --att_dim 100 --num_images 3 --batch_size 32 --l
 ```
 
 ## Contact
-Questions and discussion are welcome: www.qttruong.info
+Questions and discussion are welcome: www.qttruong.com

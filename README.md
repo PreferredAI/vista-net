@@ -4,7 +4,7 @@ This is the code for the paper:
 
 **[VistaNet: Visual Aspect Attention Network for Multimodal Sentiment Analysis](https://drive.google.com/file/d/12d8SZiNeKFgIGmO5VHSrZV2jkgwYZpNp)**
 <br>
-[Quoc-Tuan Truong](http://www.qttruong.info/) and [Hady W. Lauw](http://www.hadylauw.com/)
+[Quoc-Tuan Truong](http://www.qttruong.com/) and [Hady W. Lauw](http://www.hadylauw.com/)
 <br>
 Presented at [AAAI 2019](https://aaai.org/Conferences/AAAI-19/)
 
